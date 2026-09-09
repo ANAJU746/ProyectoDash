@@ -3,31 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard - ProtectoDash</title>
-    <link rel="stylesheet" href="css/estilos.css">
-    
+    <title>ProtectoDash - Single Page</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    
+    <!-- Header General -->
     <nav class="navbar navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">ProtectoDash</a>
-            <a class="text-white text-decoration-none" href="tables.html">Ir a Tablas</a>
+            <a class="navbar-brand" href="#">ProtectoDash - Panel de Control</a>
         </div>
     </nav>
     
-
     <div class="container mt-4">
-        <h1>Dashboard Principal</h1>
-        <p>Bienvenido al panel de control. (Espacio para el Desarrollador 1)</p>
         
-        <div class="row">
-            <div class="col-md-4"><div class="card bg-primary text-white p-3">Usuarios: 150</div></div>
-            <div class="col-md-4"><div class="card bg-success text-white p-3">Ventas: $5,000</div></div>
-            <div class="col-md-4"><div class="card bg-warning text-dark p-3">Alertas: 2</div></div>
-        </div>
+        <!-- ========================================== -->
+        <!-- ZONA DEL DESARROLLADOR ANA  -->
+        <!-- ========================================== -->
+        <section id="dashboard" class="mb-5">
+            <h2>Dashboard Principal</h2>
+            <div class="row">
+                <div class="col-md-4"><div class="card bg-primary text-white p-3">Usuarios: 150</div></div>
+                <div class="col-md-4"><div class="card bg-success text-white p-3">Ventas: $5,000</div></div>
+                <div class="col-md-4"><div class="card bg-warning text-dark p-3">Alertas: 2</div></div>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- ========================================== -->
+        <!-- ZONA DEL DESARROLLADOR MITZI-->
+        <!-- ========================================== -->
+      
+        <section id="tablas" class="mb-5">
+            <h2>Sección de Tablas</h2>
+            <table class="table table-striped mt-3">
+                <thead class="table-dark">
+                    <tr><th>ID</th><th>Nombre</th><th>Rol</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>1</td><td>Ana</td><td>Administrador</td></tr>
+                    <tr><td>2</td><td>Compañero</td><td>Desarrollador 2</td></tr>
+                </tbody>
+            </table>
+        </section>
+
     </div>
+    
     <script src="js/script.js"></script>
 </body>
 </html>
