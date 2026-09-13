@@ -1,1 +1,2 @@
-Primer proyecto git haciendo merge
+Primer proyecto git colaborativo haciendo merge
+ANA Y MIZI
